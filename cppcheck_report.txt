@@ -1,0 +1,125 @@
+emd/emd.c:776:47: style: Condition 'vHead.Next!=NULL' is always true [knownConditionTrueFalse]
+    } while (uHead.Next != NULL || vHead.Next != NULL);
+                                              ^
+emd/emd.c:693:8: style: Local variable 'i' shadows outer variable [shadowVariable]
+   int i;
+       ^
+emd/emd.c:626:7: note: Shadowed declaration
+  int i, j, found, minI, minJ;
+      ^
+emd/emd.c:693:8: note: Shadow variable
+   int i;
+       ^
+emd/emd.c:698:12: style: Local variable 'j' shadows outer variable [shadowVariable]
+       int j;
+           ^
+emd/emd.c:626:10: note: Shadowed declaration
+  int i, j, found, minI, minJ;
+         ^
+emd/emd.c:698:12: note: Shadow variable
+       int j;
+           ^
+emd/emd.c:726:12: style: Local variable 'j' shadows outer variable [shadowVariable]
+       int j;
+           ^
+emd/emd.c:626:10: note: Shadowed declaration
+  int i, j, found, minI, minJ;
+         ^
+emd/emd.c:726:12: note: Shadow variable
+       int j;
+           ^
+emd/emd.c:735:13: style: Local variable 'i' shadows outer variable [shadowVariable]
+        int i;
+            ^
+emd/emd.c:626:7: note: Shadowed declaration
+  int i, j, found, minI, minJ;
+      ^
+emd/emd.c:735:13: note: Shadow variable
+        int i;
+            ^
+emd/emd.c:753:12: style: Local variable 'i' shadows outer variable [shadowVariable]
+       int i;
+           ^
+emd/emd.c:626:7: note: Shadowed declaration
+  int i, j, found, minI, minJ;
+      ^
+emd/emd.c:753:12: note: Shadow variable
+       int i;
+           ^
+emd/emd.c:762:13: style: Local variable 'j' shadows outer variable [shadowVariable]
+        int j;
+            ^
+emd/emd.c:626:10: note: Shadowed declaration
+  int i, j, found, minI, minJ;
+         ^
+emd/emd.c:762:13: note: Shadow variable
+        int j;
+            ^
+emd/emd_mex.c:72:9: error: Uninitialized variable: n1 [uninitvar]
+    if(!n1 || !n2)
+        ^
+python-emd-master/emd.c:777:47: style: Condition 'vHead.Next!=NULL' is always true [knownConditionTrueFalse]
+    } while (uHead.Next != NULL || vHead.Next != NULL);
+                                              ^
+python-emd-master/emd.c:694:8: style: Local variable 'i' shadows outer variable [shadowVariable]
+   int i;
+       ^
+python-emd-master/emd.c:627:7: note: Shadowed declaration
+  int i, j, found, minI, minJ;
+      ^
+python-emd-master/emd.c:694:8: note: Shadow variable
+   int i;
+       ^
+python-emd-master/emd.c:699:12: style: Local variable 'j' shadows outer variable [shadowVariable]
+       int j;
+           ^
+python-emd-master/emd.c:627:10: note: Shadowed declaration
+  int i, j, found, minI, minJ;
+         ^
+python-emd-master/emd.c:699:12: note: Shadow variable
+       int j;
+           ^
+python-emd-master/emd.c:727:12: style: Local variable 'j' shadows outer variable [shadowVariable]
+       int j;
+           ^
+python-emd-master/emd.c:627:10: note: Shadowed declaration
+  int i, j, found, minI, minJ;
+         ^
+python-emd-master/emd.c:727:12: note: Shadow variable
+       int j;
+           ^
+python-emd-master/emd.c:736:13: style: Local variable 'i' shadows outer variable [shadowVariable]
+        int i;
+            ^
+python-emd-master/emd.c:627:7: note: Shadowed declaration
+  int i, j, found, minI, minJ;
+      ^
+python-emd-master/emd.c:736:13: note: Shadow variable
+        int i;
+            ^
+python-emd-master/emd.c:754:12: style: Local variable 'i' shadows outer variable [shadowVariable]
+       int i;
+           ^
+python-emd-master/emd.c:627:7: note: Shadowed declaration
+  int i, j, found, minI, minJ;
+      ^
+python-emd-master/emd.c:754:12: note: Shadow variable
+       int i;
+           ^
+python-emd-master/emd.c:763:13: style: Local variable 'j' shadows outer variable [shadowVariable]
+        int j;
+            ^
+python-emd-master/emd.c:627:10: note: Shadowed declaration
+  int i, j, found, minI, minJ;
+         ^
+python-emd-master/emd.c:763:13: note: Shadow variable
+        int j;
+            ^
+emd/emd_mex.c:24:0: style: The function 'mexFunction' is never used. [unusedFunction]
+
+^
+emd/emd.c:836:0: style: The function 'printSolution' is never used. [unusedFunction]
+
+^
+nofile:0:0: information: Cppcheck cannot find all the include files (use --check-config for details) [missingInclude]
+
